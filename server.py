@@ -12,7 +12,7 @@ context = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # bind() de cac may client ket noi voi server thong qua host
 context.bind((HOST,PORT))
 
-# listen(backlog) cho phep server chap nhan ket noi. 
+# listen(backlog) cho phep server cho backlog client. 
 # backlog it nhat la 0 (neu nho hon, no se mac dinh 0)
 context.listen(5)
 # accept liet ket mot dia va lang nghe cac ket noi 
